@@ -38,11 +38,10 @@ const Practice = {
     let fab = document.getElementById("practicefab");
     if (!k) { if (fab) fab.style.display = "none"; return; }
     const btn = () => U.h("button", { class: "btn practice-btn", onclick: () => this.open(k), title: "Templates, formulas, data sources and a step-by-step guide for this page" }, "▶ Practice Now");
-    if (head) { head.append(btn()); if (fab) fab.style.display = "none"; }
-    else {
-      if (!fab) { fab = U.h("button", { id: "practicefab", class: "practicefab", onclick: () => this.open(this.key()) }, "▶ Practice Now"); document.body.append(fab); }
-      fab.style.display = "";
-    }
+    if (head) head.append(btn());
+    // Always show a floating button too, so it is visible however the header wraps.
+    if (!fab) { fab = U.h("button", { id: "practicefab", class: "practicefab", onclick: () => this.open(this.key()), title: "Practice this page" }, "▶ Practice Now"); document.body.append(fab); }
+    fab.style.display = "";
   },
   open(k) {
     const g = PRACTICE[k];

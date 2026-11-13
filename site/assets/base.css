@@ -241,7 +241,7 @@ tr.click:focus-visible,.kcard:focus-visible{outline:2px solid var(--accent);outl
 /* ---------- Practice Now ---------- */
 .btn.practice-btn{background:var(--practice,#ED9010);border-color:var(--practice,#ED9010);color:#fff;box-shadow:0 2px 8px rgba(0,0,0,.15)}
 .btn.practice-btn:hover{filter:brightness(1.07)}
-.practicefab{position:fixed;bottom:1.1rem;left:12.5rem;z-index:70;background:var(--practice,#ED9010);color:#fff;border:none;border-radius:999px;padding:.55rem .95rem;font-weight:700;font-size:.82rem;box-shadow:0 4px 14px rgba(0,0,0,.3)}
+.practicefab{position:fixed;bottom:1.1rem;left:13rem;z-index:70;background:var(--practice,#ED9010);color:#fff;border:none;border-radius:999px;padding:.55rem .95rem;font-weight:700;font-size:.82rem;box-shadow:0 4px 14px rgba(0,0,0,.3)}
 .modal.practice-modal{max-width:1180px;width:96vw;max-height:92vh}
 .modal.practice-modal header h2{font-size:1.15rem}
 .practice-intro p{font-size:.92rem;line-height:1.6;margin-bottom:.4rem}
