@@ -46,3 +46,13 @@ below floor → refuse; log everything.
 ## Disclaimer
 Aurelia Global Bank is fictional; all data synthetic; educational use only — not
 legal, regulatory or financial advice. See the book's copyright page.
+
+## Hands-on practice workspace — AGB One — AI CoE Workspace
+
+`site/` holds a static, offline-capable training simulation that accompanies *The Bank AI Playbook*: realistic enterprise applications with seeded data, a simulated inbox and clock, persona switching ("View as"), an "Explain this screen" panel and graded missions mapped to the book. **Every page has a ▶ Practice Now button**: a step-by-step guide, a live template/calculator pre-filled with the workspace's numbers, formulas, data-collection sources, how to produce the report, the value to the organisation, and how to do it in the AI age.
+
+- **Run locally:** open `site/index.html` in a browser — no server or install needed.
+- **Publish:** Settings → Pages → Source: **GitHub Actions**. The included workflow (`.github/workflows/pages.yml`) deploys `site/` on every push to `main` that changes it.
+- Details: `site/README.md` (missions index, data reset/export) and `site/docs/BUILD-BIBLE.md` (decisions, canon placement, QA).
+
+> Training simulation. All organisations, people and data are fictional.

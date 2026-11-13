@@ -1,0 +1,27 @@
+/* Aurelia Global Bank — conservative banking intranet. Navy / teal family, square corners, serif-accented headers. */
+:root{
+  --font-ui:"Segoe UI",system-ui,-apple-system,Roboto,Arial,sans-serif;
+  --font-head:Georgia,"Times New Roman",serif;
+  --font-mono:ui-monospace,Menlo,Consolas,monospace;
+  --radius:4px; --radius-s:3px;
+  --bg:#eef1f5; --card:#ffffff; --ink:#1d2733; --head-ink:#0d2240; --muted:#5b6b7d;
+  --line:#ccd5df; --line-soft:#e3e9ef;
+  --accent:#0e5f74;            /* AGB teal */
+  --accent-2:#0d2240;          /* deep navy */
+  --practice:#9a5f06;
+  --top-bg:#0d2240; --top-ink:#f2f6fa; --top-search-bg:rgba(255,255,255,.14);
+  --nav-bg:#13304f; --nav-ink:#dce6f0; --nav-muted:#8ba2bb; --nav-hover:#1a3c61; --nav-active:#0e5f74;
+  --toolbar-bg:#f6f8fa; --th-bg:#f0f3f6; --th-ink:#44566b; --row-hover:#f2f7f9; --kcol-bg:#e9eef3;
+  --chip-bg:#0e5f74; --chip-ink:#fff;
+  --ok:#1d7a3e; --warn:#c07f00; --danger:#b02a37;
+  --shadow:0 1px 2px rgba(13,34,64,.08);
+  --pill-gray-bg:#e6eaef; --pill-gray-ink:#44566b;
+  --pill-blue-bg:#dbe9f5; --pill-blue-ink:#14538a;
+  --pill-green-bg:#ddefe2; --pill-green-ink:#155c30;
+  --pill-amber-bg:#f8ecd4; --pill-amber-ink:#8a5b00;
+  --pill-red-bg:#f7dde0; --pill-red-ink:#8f1d28;
+  --pill-purple-bg:#e9e0f2; --pill-purple-ink:#5b2f82;
+  --pill-teal-bg:#d8ecef; --pill-teal-ink:#0e5f74;
+}
+.pagehead h1{letter-spacing:.01em}
+.leftnav a.active{font-weight:700}
